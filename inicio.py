@@ -13,7 +13,7 @@ st.set_page_config(page_title="Feliz Navidad", page_icon="🎄")
 # Diccionario solo de códigos válidos
 codigos_validos = {
 'alerce': 'Natalia',
-'coihue': 'Luis',
+'pehuen': 'Luis',
 'canelo': 'Maria',
 'peumo': 'Jose',
 'quillay': 'Marisol',
@@ -25,7 +25,7 @@ codigos_validos = {
 'maiten': 'Javiera',
 'palma': 'Tomas',
 'patagua': 'Rayen',
-'litre': 'Rodrigo'
+'lingue': 'Rodrigo'
 }
 
 Asignaciones = {'Natalia': 'Tomas', 'Luis': 'Marisol', 'Maria': 'Jorge', 'Jose': 'Roxana', 'Marisol': 'Rodrigo', 'Jorge': 'Mauricio', 'Roxana': 'Javiera', 'Mauricio': 'Rayen', 'Tamara': 'Bruno', 'Bruno': 'Natalia', 'Javiera': 'Tamara', 'Tomas': 'Jose', 'Rayen': 'Luis', 'Rodrigo': 'Maria'}
@@ -46,6 +46,7 @@ run_snow_animation()
 
 # Interfaz de Streamlit
 st.title("🎄 Portal Navideño 🎄")
+st.info("Importante: el valor del regalo es entre 15.000 y 20.000 Luka$")
 st.subheader(f"Bienvenid@")
 
 codigo_ingresado = st.text_input("🔑 Ingresa tu código navideño:").lower()
