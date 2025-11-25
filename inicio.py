@@ -45,7 +45,8 @@ iconos = {
 run_snow_animation()
 
 # Interfaz de Streamlit
-st.title("🎄 Portal Navideño 🎄")
+st.title("🎄🎄🎄🎄🎄")
+st.title("Portal Navideño")
 st.info("Importante: el valor del regalo es entre 15.000 y 20.000 Luka$")
 st.subheader(f"Bienvenid@")
 
